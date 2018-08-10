@@ -16,8 +16,21 @@ As this plugin is based on cmake-lint, you have to install it e.g.
 apm install linter-cmake
 ```
 
+## Contribution
+
+You are welcome to contribute. The implementation is currently as simple as it can be.
 
 
-### Acknowledgement
+
+If you find some bugs, please report them (https://github.com/FabianReister/linter-cmake/issues).
+
+## Wish lish
+
+ - [ ] config file support
+ - [ ] filter support (black- and whitelist)
+
+Although direct config file support is not implemented, you can use the file `~/.config/cmakelintrc` to configure cmake-lint.
+
+## Acknowledgement
 
 Thanks to the authors of the 'linter-ansible-linting' and 'linter-jshint' as these Atom plugins have been inspiring.
