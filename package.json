@@ -1,0 +1,37 @@
+{
+  "name": "linter-cmake",
+  "main": "./lib/main.js",
+  "version": "0.1.0",
+  "description": "Linter for CMake using cmake-lint",
+  "keywords": [
+    "lint",
+    "linter",
+    "cmake",
+    "cmake-lint"
+  ],
+  "repository": "https://github.com/FabianReister/linter-cmake",
+  "homepage": "https://github.com/FabianReister/linter-cmake",
+  "license": "MIT",
+  "configSchema": {
+    "cmakeLintExecutablePath": {
+      "type": "string",
+      "title": "cmakelint executable path",
+      "default": "cmakelint"
+    }
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "atom-linter": "^10.0.0",
+    "atom-package-deps": "^4.0.1"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  }
+}
