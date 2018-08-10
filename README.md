@@ -6,8 +6,9 @@ with files that have the "CMake" syntax.
 
 ## Installation
 
-If the `linter` is not already installed, it will be installed for you to
-provide a UI for the service this package provides.
+As this plugin is based on cmake-lint, you have to install it e.g.
+
+    pip install cmakelint
 
 ### Plugin installation
 
@@ -17,6 +18,6 @@ apm install linter-cmake
 
 
 
-###
+### Acknowledgement
 
-Inspired by linter-ansible-linting and linter-jshint
+Thanks to the authors of the 'linter-ansible-linting' and 'linter-jshint' as these Atom plugins have been inspiring.
