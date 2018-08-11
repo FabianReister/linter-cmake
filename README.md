@@ -28,6 +28,7 @@ If you find some bugs, please report them (https://github.com/FabianReister/lint
 
  - [ ] config file support
  - [ ] filter support (black- and whitelist)
+ - [ ] tests (automated)
 
 Although direct config file support is not implemented, you can use the file `~/.config/cmakelintrc` to configure cmake-lint.
 
